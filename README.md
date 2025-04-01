@@ -1,4 +1,32 @@
-# C-DBMS
-We use databases in every aspect of our lives today. Data stored on servers around the world amounts to trillions of bytes. Such a database can be accessed using SQL, one of the most basic methods. But have you ever thought about using C++ to maintain such a database? In this project, we will talk about implementing different views on a text file according to the type of user and edit accordingly. The system will be designed using object-oriented principles and will leverage technologies such as C++, MySQL, etc. The system will also include robust security features to ensure that student data is kept safe and secure.
+# Student Record Management System
+A minimalist desktop app  to managae students record. **record are saved directly on an excel file to decrease data Entry labour cost**  and improves efficiency.
 
-Technologies Required: C++ programming language, Relational Database Management System (RDBMS), Object-Oriented Programming (OOP), Data Structures, Multi-threading, and Encryption/Decryption.
+>launch the srm.exe file directly to use the App.
+
+>for testing purpose both passwords are set to "password".
+
+>Admin have full access to manipulate the data.
+
+>Student account can only view the data.
+## `Login`
+<img src="ScreenShot/Home.JPG">
+
+## `Logged in as Admin`
+<img src="ScreenShot/AdminFunction.JPG">
+
+## `Viewing Students Records`
+<img src="ScreenShot/ViewData.JPG">
+
+## ``Records Saved in Excel File``
+<img src="ScreenShot/ViewExcel.JPG">
+
+### Running on Local machine
+
+- Install a C++ compiler (e.g., GCC).
+- Write your C++ code and save it with the .cpp extension.
+- Open the terminal (Linux/Mac) or Command Prompt (Windows).
+- Navigate to the directory containing your C++ source code.
+- Compile the code using the command: `g++ -o output_filename source_file.cpp`.
+- Run the executable using: `./output_filename` (Linux/Mac) or `output_filename.exe` (Windows).
+- Test and verify your program's functionality.
+
